@@ -8,8 +8,9 @@ cask "mcpbrowser" do
   homepage "https://webmatrices.com/mcpbrowser"
 
   depends_on arch: :arm64
-
+  depends_on :macos
   container type: :dmg
+
   app "MCP Browser.app"
 
   zap trash: [
