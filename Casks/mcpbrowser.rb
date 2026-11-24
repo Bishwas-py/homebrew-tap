@@ -1,6 +1,6 @@
 cask "mcpbrowser" do
-  version "0.15.0"
-  sha256 "5dd4b827f73d7375a296889f4fe0c53180e74e7ef5b9afcdc048ed98b0f1a77f"
+  version "0.15.1"
+  sha256 "45d5dd274048311d8c6d35d1a813f946ccbd9e7fd6786e3162c0b08bda97812c"
 
   url "https://webmatrices.com/api/mcpbrowser/download?version=#{version}"
   name "MCP Browser"
